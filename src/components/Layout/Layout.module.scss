@@ -1,0 +1,19 @@
+.main {
+    /* padding-top: 152px; */
+    // padding-top: 9rem;
+    /* padding-bottom: 150px; */
+    // padding-bottom: 9rem;
+
+    padding: 5rem 0;
+
+    @media (max-width: 800px) {
+        padding: 5rem 0;
+        // padding-top: 5rem;
+        // padding-bottom: 5rem;
+    }
+
+}
+
+.disablePaddingBottom {
+    padding-bottom: 0px !important;
+}

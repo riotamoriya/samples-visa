@@ -1,0 +1,32 @@
+.root {
+    width: 100%;
+    padding: 12vh 15vw;
+    background-color: #1daf71;
+
+    .contents {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .title {
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    }
+
+    @media (max-width: 800px) {
+        padding: 18vh 5vw;
+        .contents {
+            grid-template-columns: 1fr;
+            // grid-template-rows: 50px 50px;
+            gap: 5vh;
+
+            .title {
+                font-size: 2.4rem;
+                white-space: nowrap;
+    
+            }
+        }
+    }
+}
+

@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.brandImg {
+  width: 19rem;
+  padding: 0;
+  height: auto;
+}
+@media (max-width: 800px) {
+  .brandImg {
+    width: 11rem;
+  }
+}

@@ -1,0 +1,59 @@
+.root {
+
+    padding: 13vh 15vw;
+
+    .section {
+        padding-bottom: 3rem;
+
+        h2 {
+            font-size: 3.1rem;
+            color: #1daf71;
+            white-space: nowrap;
+            font-weight: bold;
+            padding-bottom: 1.5rem;
+
+        }
+
+
+        h3 {
+            font-size: 2.3rem;
+            color: #1daf71;
+            white-space: pre-wrap;
+            font-weight: bold;
+            padding-bottom: 1.5rem;
+
+        }
+    
+        pre {
+            font-size: 1.5rem;
+            line-height: 3rem;
+
+            color: black;
+            font-weight:normal;
+            white-space: pre-wrap;
+
+        }
+
+    }
+
+    @media (max-width: 800px) {
+        padding: 10vh 2vw;
+        .section {
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+
+    }
+}
+
+// @media (max-width: 800px) {
+//     .section h3 {
+//         font-size: 22px;
+//         line-height: 26px;
+//     }
+
+//     .section span, .section p {
+//         font-size: 14px;
+//     }
+// }

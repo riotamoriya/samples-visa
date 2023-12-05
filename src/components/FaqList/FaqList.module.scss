@@ -1,0 +1,64 @@
+.root {
+    width: 100%;
+    padding: 0 15vw;
+    @media (max-width: 800px) {
+        padding: 0 3vw;
+    }
+
+
+    .accordionTitle {
+        font-weight: normal;
+        font-size: 1.8rem;
+        text-align: left;
+        white-space: pre-wrap;
+
+        margin-bottom: 1.2rem;
+
+        color: #1daf71;
+        font-weight: bold;
+    }
+
+    .accordionContent {
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 4rem;
+
+        text-align: left;
+        white-space: pre-wrap;
+
+        margin-bottom: 2rem;
+
+        color: black;
+        font-weight: normal;
+
+    }
+
+    .title {
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 4rem;
+
+        white-space: pre-wrap;
+
+        margin-bottom: 2rem;
+
+        color: green;
+        font-weight: bold;
+    }
+
+    .contents {
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+
+        /* text-align: center; */
+        white-space: pre-wrap;
+
+        margin-bottom: 4rem;
+
+
+        font-weight: bold;
+    }
+
+}
+

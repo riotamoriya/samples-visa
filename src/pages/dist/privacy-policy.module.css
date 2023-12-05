@@ -1,0 +1,35 @@
+.root {
+  padding: 13vh 15vw;
+}
+.root .section {
+  padding-bottom: 3rem;
+}
+.root .section h2 {
+  font-size: 3.1rem;
+  color: #1daf71;
+  white-space: nowrap;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+.root .section h3 {
+  font-size: 2.3rem;
+  color: #1daf71;
+  white-space: pre-wrap;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+.root .section pre {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: black;
+  font-weight: normal;
+  white-space: pre-wrap;
+}
+@media (max-width: 800px) {
+  .root {
+    padding: 10vh 2vw;
+  }
+  .root .section h2 {
+    font-size: 1.8rem;
+  }
+}

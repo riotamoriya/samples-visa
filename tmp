@@ -1,0 +1,7 @@
+       query {
+  file(relativePath: { eq: "explanationImages/immediateResponse.webp" }) {
+    childImageSharp {
+      gatsbyImageData(layout: FIXED)
+    }
+  }
+}

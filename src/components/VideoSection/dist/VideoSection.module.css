@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10vh 15vw;
+}
+@media (max-width: 600px) {
+  .root {
+    padding: 15vh 7vw;
+  }
+}
+.root .title {
+  font-size: 2.2rem;
+  line-height: 4.5rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+.root .subtitle {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 10rem;
+  font-weight: normal;
+}

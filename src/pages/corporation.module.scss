@@ -1,0 +1,45 @@
+.root {}
+
+.list-container {
+
+    padding: 9vh 18vw;
+    background-color: #1daf71;
+
+    @media (max-width: 800px) {
+        padding: 18vh 5vw;
+        
+    }
+
+
+    .container {
+        width: 100%;
+
+        .articleTitle {
+            font-weight: normal;
+            font-size: 1.8rem;
+
+            text-align: left;
+            white-space: nowrap;
+
+            padding: 2rem 0;
+
+            color: white;
+            font-weight: bold;
+
+        }
+
+        .articleContents {
+            font-weight: normal;
+            font-size: 1.5rem;
+            line-height: 2.3rem;
+
+            text-align: left;
+
+            white-space: pre-wrap;
+
+            color: white;
+            font-weight: bold;
+
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+.root {
+  background-color: #1e7c52;
+  padding: 15vh 20vw;
+}
+@media (max-width: 800px) {
+  .root {
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+}
+.root .container {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  /* CSSモジュールの例 */
+}
+.root .container .articleImage {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  margin-bottom: 3rem;
+}
+.root .container .articleTitle {
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 2.3rem;
+  text-align: left;
+  white-space: pre-wrap;
+  margin-bottom: 4rem;
+  color: white;
+  font-weight: bold;
+}
+.root .container .articleContents {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  text-align: left;
+  white-space: pre-wrap;
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: normal;
+}
+.root .container .articleSeparator {
+  border: none;
+  /* 既存のボーダーを取り除く */
+  height: 2px;
+  /* 線の高さ */
+  background-color: white;
+  /* 線の色を白に設定 */
+  margin-bottom: 4rem;
+}

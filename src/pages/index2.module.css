@@ -1,0 +1,47 @@
+.root {
+
+}
+
+.section {
+    margin-top: 48px;
+}
+
+.subSection {
+    margin-top: 32px;
+}
+
+.section span {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.section h2 {
+    font-size: 2rem;
+    line-height: 2.1rem;
+    font-weight: normal;
+}
+
+.section h3 {
+    font-size: 1.5rem;
+    /* line-height: 1.6rem; */
+    font-weight: normal;
+    margin-top: 24px;
+}
+
+.section p {
+    margin-top: 32px;
+    /* font-size: 16px; */
+    font-size: 1.3rem;
+}
+
+@media (max-width: 800px) {
+    .section h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .section span, .section p {
+        font-size: 14px;
+    }
+}

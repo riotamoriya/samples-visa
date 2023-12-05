@@ -1,0 +1,149 @@
+.root {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 1fr;
+
+    padding: 1rem 1vw;
+
+    background-color: #f9f9f9;
+
+    @media (max-width: 800px) {
+        grid-template-columns: 1fr 3fr;
+    }
+
+
+    .toggleButton {
+    }
+
+    .sentence {
+        .title {
+            font-weight: normal;
+            font-size: 1.3rem;
+
+            text-align: left;
+            white-space: pre-wrap;
+
+            color: #323335;
+            font-weight: bold;
+        }
+
+        .contents {
+            font-weight: normal;
+            font-size: 1.5rem;
+
+            text-align: left;
+            white-space: pre-wrap;
+
+            margin-bottom: 1rem;
+
+            color: #6d6e6f;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            /* 上下に並べる */
+            align-items: flex-start;
+            /* 左揃え、必要に応じて調整 */
+
+            font-weight: normal;
+            font-size: 1.4rem;
+            padding: 0 0 1rem 0;
+
+            text-align: left;
+            white-space: nowrap;
+
+
+            a {
+                background: none;
+                /* ボタンの背景を透明に */
+                border: none;
+                /* ボーダーを消去 */
+                text-decoration: underline;
+                /* アンダーラインを追加 */
+                cursor: pointer;
+                /* ホバー時のカーソル変更 */
+                color: #4f5056;
+
+            }
+        }
+
+    }
+
+
+}
+
+
+// .root {
+//     display: flex;
+//     align-items: center; // アイテムを垂直方向の中央に配置
+//     padding: 1rem 1vw;
+//     margin: 1vh 0;
+
+//     background-color: #f9f9f9;
+
+//     .toggleButton {
+//         flex: 2.5; // 2の比率で幅を取る
+//     }
+
+//     .sentence {
+//         flex: 7.5; // 8の比率で幅を取る
+
+//         .title {
+//             font-weight: normal;
+//             font-size: 1.5rem;
+
+//             text-align: left;
+//             white-space: nowrap;
+
+//             color: #323335;
+//             font-weight: bold;
+//         }
+
+//         .contents {
+//             font-weight: normal;
+//             font-size: 1.5rem;
+//             // font-size: 1.5rem;
+
+
+//             text-align: left;
+//             white-space: pre-wrap;
+
+//             margin-bottom: 1rem;
+
+//             color: #6d6e6f;
+//         }
+
+
+//         .links {
+//             display: flex;
+//             flex-direction: column;
+//             /* 上下に並べる */
+//             align-items: flex-start;
+//             /* 左揃え、必要に応じて調整 */
+
+//             font-weight: normal;
+//             font-size: 1.4rem;
+//             padding: 0 0 1rem 0;
+
+//             text-align: left;
+//             white-space: nowrap;
+
+
+//             a {
+//                 background: none;
+//                 /* ボタンの背景を透明に */
+//                 border: none;
+//                 /* ボーダーを消去 */
+//                 text-decoration: underline;
+//                 /* アンダーラインを追加 */
+//                 cursor: pointer;
+//                 /* ホバー時のカーソル変更 */
+//                 color: #4f5056;
+
+//             }
+//         }
+
+
+//     }
+// }

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.root {
+  padding: 7vh 8vw;
+}
+.root .logoContainer {
+  text-align: center;
+  /* 子要素を中央揃えに */
+  margin: 0 auto;
+  display: block;
+  /* 必要に応じて設定 */
+}
+.root .logoContainer .logo {
+  display: inline-block;
+  /* 内容の幅に合わせる */
+  font-size: 1.9rem;
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 4rem;
+  color: black;
+  border: 0.2rem solid black;
+  /* 境界線を追加 */
+  padding: 0.5rem;
+  /* テキストと境界線の間にスペースを追加 */
+}
+.root .contents {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  white-space: pre-wrap;
+  margin-bottom: 4rem;
+  color: black;
+  font-weight: normal;
+}
+.root .linkContainer {
+  font-weight: normal;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+@media (max-width: 800px) {
+  .root .linkContainer {
+    flex-direction: column;
+  }
+}
+.root .linkContainer > * {
+  color: black;
+  text-align: center;
+}

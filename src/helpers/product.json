@@ -1,0 +1,250 @@
+[
+    {
+        "productCode": "MJUM8066-GYDZ",
+        "name": "Lambswool Crew Neck Jumper",
+        "vendor": "Sunspel",
+        "price": 75,
+        "alt": "lambswool crew neck jumper",
+        "image": "/products/pdp1.jpeg",
+        "colorOptions": [
+            {"color": "#000000", "title": "Anthracite Melange"},
+            {"color": "#4D34AE", "title": "Pale Purple"},
+            {"color": "#488266", "title": "Green Moss"}
+        ],
+        "sizeOptions": ["xs", "s", "m", "l", "xl"],
+        "wishlist": true,
+        "tags": ["sample"],
+        "gallery": [
+            {"image": "/products/pdp1.jpeg", "alt": "pdp description 1"},
+            {"image": "/products/pdp2.jpeg", "alt": "pdp description 2"},
+            {"image": "/products/pdp3.jpeg", "alt": "pdp description 3"},
+            {"image": "/products/pdp4.jpeg", "alt": "pdp description 4"}
+        ],
+        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
+    },
+    {
+        "name": "BIRHIN 35 \"Yellow",
+        "price": 64350,
+        "alt": "BIRHIN 35",
+        "image": "/aa.jpg",
+        "tags": ["original-bag"]
+    },
+    {
+        "name": "BIRHIN 35 \"Blue",
+        "price": 59400,
+        "alt": "BIRHIN 35",
+        "image": "/_DSC1828.jpg",
+        "tags": ["original-bag"]
+    },
+
+    {
+        "name": "BIRHIN 35 \"Brown",
+        "price": 51700,
+        "alt": "BIRHIN 35",
+        "image": "/_DSC1830.jpg",
+        "tags": ["original-bag"]
+    },
+
+    {
+        "name": "Leather Bag 1",
+        "price": 75,
+        "alt": "leather back-bag 1",
+        "image": "/products/bag1.jpg",
+        "tags": ["bag", "men"]
+    },
+
+
+
+    {
+        "name": "Leather Bag 2",
+        "price": 75,
+        "alt": "leather back-bag 2",
+        "image": "/products/bag2.jpg",
+        "tags": ["bag", "men"]
+    },
+    {
+        "name": "Leather Bag 3",
+        "price": 75,
+        "alt": "leather back-bag 3",
+        "image": "/products/bag4.jpg",
+        "tags": ["bag", "men"]
+    },
+
+    {
+        "name": "Classic T-Shirt",
+        "price": 75,
+        "alt": "classic t-shirt 1",
+        "image": "/products/shirt1.jpg",
+        "tags": ["shirt", "men"]
+    },
+    {
+        "name": "Classic T-Shirt",
+        "price": 75,
+        "alt": "classic t-shirt 2",
+        "image": "/products/shirt2.jpg",
+        "tags": ["shirt", "men"]
+    },
+    {
+        "name": "Classic T-Shirt",
+        "price": 75,
+        "alt": "classic t-shirt 3",
+        "image": "/products/shirt3.jpg",
+        "tags": ["shirt", "men"]
+    },
+    {
+        "name": "BIRHIN 35 \"Yellow",
+        "price": 64350,
+        "alt": "BIRHIN 35",
+        "image": "/aa.jpg",
+        "tags": ["originals"],
+        "meta": "+ 2 colors"
+    },
+
+    {
+        "name": "BIRHIN 35 \"Blue",
+        "price": 59400,
+        "alt": "BIRHIN 35",
+        "image": "/_DSC1828.jpg",
+        "tags": ["originals"]
+    },
+
+    {
+        "name": "BIRHIN 25 \"Brown",
+        "price": 51700,
+        "alt": "BIRHIN 35",
+        "image": "/_DSC1830.jpg",
+        "tags": ["originals"]
+    },
+
+    {
+        "name": "COACHバッグ リフレッシュ",
+        "price": 6600,
+        "alt": "BIRHIN 35",
+        "image": "/f1.png",
+        "tags": ["repair", "mend"],
+        "meta": "「痛みが激しいので、全体的に綺麗にしたい」->全体リフレッシュとハサミ玉部の交換を行うことで、購入時に近いデザインを取り戻しました"
+    },
+
+    {
+        "name": "COACHバッグ リメイク",
+        "price": 6600,
+        "alt": "BIRHIN 35",
+        "image": "/f2.png",
+        "tags": ["repair", "remake"],
+        "meta": "「重くて持てない！」->手紐のリメイクすることで、バッグのデザインそのまま、軽い感覚を実現しました！！"
+    },
+
+    {
+        "name": "Chanelバッグ 修理＆部分リメイク",
+        "price": 6600,
+        "alt": "BIRHIN 35",
+        "image": "/f3.png",
+        "tags": ["repair", "remake", "mend"],
+        "meta": "「一部縮んでしまった！！」->問題箇所をポケットにすることで、生まれ変わりました！！ついでに、ファスナー交換・色剥げの修正と全体磨き上げを施して完成です。"
+    },
+
+    {
+        "name": "ランドセル（ブラック＆ライトグリーン）リメイク",
+        "price": 6600,
+        "alt": "BIRHIN 35",
+        "image": "/r1.png",
+        "tags": ["repair", "remake", "randsel-remake"],
+        "meta": "今年の３月卒業された男の子の品を扱わせていただきました。中学用にスタイリッシュなペンケースを作りました。財布はもう持ってる！とのことで、コインケースはおばあちゃんへ。キーホルダー２つは、ご自身のバッグと旦那さまの車鍵のストラップに生まれ変わりました。"
+    },
+
+    {
+        "name": "ランドセル（パープル）リメイク",
+        "price": 6600,
+        "alt": "BIRHIN 35",
+        "image": "/r2.png",
+        "tags": ["repair", "remake", "randsel-remake"],
+        "meta": "東京３年目の女性の方からのご依頼。ご実家の整理の際に発見されたそうで、活用できないか相談いただきました。使用イメージを具体的に持ち込んでいただいたため、かなりスムーズな工程でした。"
+    },
+
+    {
+        "name": "【特注！！】補聴器を身体から離さない",
+        "price": 6600,
+        "alt": "BIRHIN 35",
+        "image": "/full1.png",
+        "tags": ["fullorder"],
+        "meta": "補聴器を身につけた男性が来客。生活で補聴器は欠かせないが、純正品のポーチで散歩などの動作をすると2,3分ごとにずり落ちてしまう。そこで、ANZZAでは、日常スタイルをヒアリングし、骨格・体型に合わせたデザインをご提案。実際に日常で使用していただき、２週間かけて調整いたしました。Sさん、ご協力ありがとうございました！！"
+    },
+
+    {
+        "name": "アウトドア仕様の洒落っ気",
+        "price": 6600,
+        "alt": "BIRHIN 35",
+        "image": "/full2.png",
+        "tags": ["fullorder"],
+        "meta": "知人男性からの依頼。「アウトドアで長く使える、両掛けのリュックサックが欲しい。モールシステムをつけて、明るい感じで。」革は軍品にもよく採用される素材です。耐久性が高く、信頼できる一品を作り出すことができます。"
+    },
+
+    
+    
+
+
+
+    
+
+    {
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman2.jpeg",
+        "tags": ["woman"]
+    },    
+    {
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 13.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman3.jpeg",
+        "tags": ["woman"],
+        "meta": "+ 2 colors"
+    },
+    {
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman4.jpeg",
+        "tags": ["woman"]
+    },
+    {
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman5.jpeg",
+        "tags": ["woman"],
+        "originalPrice": 31.50
+
+    },
+    {
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 21,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman6.jpeg",
+        "tags": ["woman"]
+    },
+    {
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman3.jpeg",
+        "tags": ["woman"]
+    },
+    {
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 15.90,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman2.jpeg",
+        "tags": ["woman"],
+        "originalPrice": 31.50
+
+    },
+    {
+        "name": "Relaxed-fit graphic T-shirt",
+        "price": 21,
+        "alt": "relaxed t shirt woman",
+        "image": "/products/woman1.jpeg",
+        "tags": ["woman"]
+    }
+  ]

@@ -1,0 +1,22 @@
+.root {
+    background-color: #acedd1;
+
+    cursor: pointer;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    transition: all ease-in-out 0.3s;
+
+    .actionName {
+        font-weight: bold;
+        font-size: 1.9rem;
+        margin-bottom: 2rem;
+    }
+
+    .link {
+        font-weight: normal;
+        font-size: 1.6rem;
+    }
+    
+}

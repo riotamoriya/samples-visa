@@ -1,0 +1,30 @@
+.root {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.brandImg {
+    // width: 70%;
+
+    width: 19rem;
+    padding: 0;
+    // width: 20vw;
+
+    height: auto;
+    // max-height: 100%;
+    // max-width: 100%;
+    
+    @media (max-width: 800px) {
+        width: 11rem;
+    }
+
+}
+
+
+// @media (max-width: 800px) {
+//     .root svg {
+//         width: 90px;
+//         height: 16.67px;
+//     }
+// }

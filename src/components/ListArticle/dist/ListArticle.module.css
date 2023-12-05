@@ -1,0 +1,60 @@
+.root-lightGreen {
+  background-color: #acedd1;
+  color: black;
+}
+
+.root-green {
+  background-color: #1daf71;
+}
+
+.root-deepGreen {
+  background-color: #1e7c52;
+}
+
+.root {
+  padding: 12vh 7vw;
+}
+.root .container {
+  width: 100%;
+  border-collapse: collapse;
+}
+.root .container .title {
+  font-weight: normal;
+  font-size: 2.4rem;
+  text-align: left;
+  white-space: pre-wrap;
+  margin-bottom: 2rem;
+  color: #1daf71;
+  font-weight: bold;
+}
+.root .container .articleTitle {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  text-align: left;
+  white-space: pre-wrap;
+  padding: 2rem 0;
+  color: black;
+  font-weight: bold;
+}
+.root .container .articleContents {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  text-align: left;
+  white-space: pre-wrap;
+  color: black;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .imageContainer {
+    width: 100%;
+    height: 50vh;
+  }
+}
