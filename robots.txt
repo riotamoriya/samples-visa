@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://anzza.jp/sitemap.xml
+Host: https://anzza.jp
