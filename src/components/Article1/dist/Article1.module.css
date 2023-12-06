@@ -1,5 +1,5 @@
 .root {
-  padding: 14vh 4vw;
+  padding: 5vh 2vw;
 }
 .root .title {
   font-weight: normal;
@@ -11,6 +11,12 @@
   color: #1daf71;
   font-weight: bold;
 }
+@media (max-width: 800px) {
+  .root .title {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+  }
+}
 .root .contents {
   font-weight: normal;
   font-size: 1.5rem;
@@ -20,6 +26,12 @@
   margin-bottom: 4rem;
   color: black;
   font-weight: bold;
+}
+@media (max-width: 800px) {
+  .root .contents {
+    font-size: 1.1rem;
+    line-height: 2.1rem;
+  }
 }
 
 .greenStyle {

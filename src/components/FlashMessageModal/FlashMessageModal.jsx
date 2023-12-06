@@ -1,21 +1,35 @@
-import React, { useState } from 'react';
-import { Modal, Alert } from 'react-bootstrap';
-
+import React, { useState, useEffect } from 'react';
+import { Modal } from 'react-bootstrap';
 import Button from '../Button';
-import ToggleSection from '../ToggleSection';
-
-
-
 import * as styles from './FlashMessageModal.module.scss';
 
+const cookie_key = 'cookie-consent';
 
-function FlashMessageModal() {
+const FlashMessageModal = () => {
   const [showMessage, setShowMessage] = useState(true);
 
-  const handleClose = () => setShowMessage(false);
+  useEffect(() => {
+    // localStorage.setItem(cookie_key, '');
+    const consentValue = localStorage.getItem(cookie_key);
+    console.log(`Your Cookie consent value: ${consentValue} => ${consentValue==='true'?'Any':'Not all'} contents are displayed on this site.`);
+
+    if (consentValue === 'true' || consentValue === 'false') {
+      setShowMessage(false);
+    }
+  }, []);
+
+  const handleAllow = () => {
+    localStorage.setItem(cookie_key, 'true');
+    setShowMessage(false);
+  };
+
+  const handleRefuse = () => { 
+    localStorage.setItem(cookie_key, 'false');
+    setShowMessage(false);
+  };
 
   return (
-    <Modal show={showMessage} onHide={handleClose} backdrop="static" keyboard={false}>
+    <Modal show={showMessage} backdrop="static" keyboard={false}>
       <Modal.Header className={styles.header}>
         <Modal.Title>Cookie ポリシー</Modal.Title>
       </Modal.Header>
@@ -25,11 +39,10 @@ function FlashMessageModal() {
           Cookie の種類に関する詳細を確認し、それぞれのカテゴリのCookie を有効/無効にすることができます。ホームページのフッターにあるリンクから、いつでも設定を調整できます。
         </div>
         <div className={styles.okButtonsContainer}>
-          <Button onClick={handleClose} level={'levelGreen'} size={'thin'}>同意</Button>
-          <Button onClick={handleClose} level={'levelBlack'} size={'thin'}>同意しない</Button>
+          <Button onClick={handleAllow} level={'levelGreen'} size={'thin'}>同意</Button>
+          <Button onClick={handleRefuse} level={'levelBlack'} size={'thin'}>同意しない</Button>
         </div>
       </Modal.Body>
-
       <Modal.Footer>
       </Modal.Footer>
     </Modal>

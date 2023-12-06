@@ -1,3 +1,136 @@
+.root2 {
+    position: relative;
+    height: 97vh;
+
+    /* オーバーレイ */
+    .heroImage {
+        width: 100%;
+        height: 100%; // .root2の高さに合わせる
+        position: absolute; // 位置を絶対位置に設定
+        z-index: 1;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            // background-color: rgba(157, 220, 188, 0.7);
+            background-color: rgba(157, 220, 188, 0.75);
+
+            z-index: 1; // 背景よりも後ろに配置
+        }
+        img {
+            object-fit: cover; // 画像のトリミングを有効化
+            object-position: center; // 画像を中央に配置
+            height: 100%; // 親要素の高さに合わせる
+        }
+    }
+
+    .sentence-container {
+        position: absolute;
+        /* 画像の中央に配置 */
+        top: 50%;
+        left: 50%;
+        /* 中央揃え */
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: auto;
+
+        @media (max-width: 800px) {
+            top: 58%;
+            width: 80%;
+        }
+
+        /* その他のスタイリング */
+        // background-color: red;
+
+        text-align: center;
+        z-index: 2;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .sub-title {
+            padding: 0 0 1rem 0;
+
+            color: black;
+            font-size: 1.8rem;
+            font-weight: normal;
+            white-space: nowrap;
+            
+            // background-color: yellow;
+            @media (max-width: 800px) {
+                font-size: 1.5rem;
+            }
+        }
+        .title {
+            padding: 0 0 4rem 0;
+
+            color: black;
+            font-size: 2.3rem;
+            font-weight: bold;
+            font-style: italic;
+
+            @media (max-width: 800px) {
+                font-size: 1.9rem;
+            }
+        }
+        .article1 {
+            padding: 0 0 6rem 0;
+
+            color: black;
+            font-size: 1.5rem;
+            font-weight: normal;
+
+            // background-color: purple;
+            @media (max-width: 800px) {
+                font-size: 1.1rem;
+            }
+        }
+        .button {
+        }
+
+
+
+
+        // @media (max-width: 800px) {
+        //     font-size: 1.2rem;
+        // }
+
+
+    }
+
+    // .sub-title {
+    //     position: absolute;
+    //     top: 29%;
+    //     /* 画像の中央に配置 */
+    //     left: 50%;
+    //     transform: translate(-50%, -50%);
+    //     /* 中央揃え */
+    //     /* その他のスタイリング */
+    //     color: black;
+
+    //     font-size: 1.8rem;
+    //     font-weight: bold;
+    //     text-align: center;
+    //     z-index: 1;
+
+    //     @media (max-width: 800px) {
+    //         font-size: 1.2rem;
+    //     }
+    // }
+
+
+}
+
+
+
+
+
+
 .root {
     width: 100%;
     background-size: cover;
@@ -15,6 +148,7 @@
 
     padding: 20vh 10vw;
 }
+
 .root:before {
     content: '';
     position: absolute;
@@ -22,7 +156,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(157, 220, 188, 0.7); 
+    background-color: rgba(157, 220, 188, 0.7);
     z-index: 0;
 }
 
@@ -46,6 +180,7 @@
     font-weight: bold;
     text-align: center;
     z-index: 1;
+
     @media (max-width: 800px) {
         font-size: 1.2rem;
     }
@@ -56,11 +191,12 @@
     font-size: 2.4rem;
     // line-height: 5rem;
     // font-weight: normal; 
-    font-weight: bold; 
+    font-weight: bold;
 
     text-align: center;
     white-space: nowrap;
     z-index: 1;
+
     @media (max-width: 800px) {
         font-size: 2rem;
     }
@@ -78,11 +214,11 @@
 
 .ctaButton {
     width: 180px;
-    
+
 }
 
 .ctaLink {
-    
+
     text-transform: uppercase;
     color: var(--standard-white);
     border-bottom: 1px solid var(--standard-white);

@@ -4,11 +4,10 @@ import * as styles from './VideoSection.module.scss';
 import YouTubeAutoPlay from '../YouTubeAutoPlay/YouTubeAutoPlay';
 
 
-const VideoSection = (props) => {
-  const { bgColor, title, quote } = props;
+const VideoSection = ({ bgColor='#1daf71', title, quote }) => {
 
   return (
-    <div className={styles.root} style={{ backgroundColor: bgColor }}>
+    <div className={styles.root} >
       <div className={styles.title}>
         TJチャンネルさんで<br/>
         ご紹介頂きました★

@@ -1,9 +1,38 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
+
 import * as styles from './Hero.module.scss';
 import Button from '../Button';
 import { Link } from 'gatsby';
 
-const Hero = (
+
+const Hero = () => {
+  return (
+    <div className={styles.root2}>
+      <StaticImage
+        src="../../assets/header.jpg"
+        alt="画像の説明"
+        layout="fullWidth"
+        className={styles.heroImage}
+      />
+      <div className={styles.sentenceContainer}>
+        <div className={styles.subTitle}>タイのVISA相談窓口</div>
+        <div className={styles.title}>タイビザ サポート</div>
+        <div className={styles.article1}>
+          タ イ 国 内 で の ビ ザ 取 得に 関 し て<br/>
+          全 て 日 本 語 対 応 で サ ポ ー ト
+        </div>
+        <div className={styles.button}>
+          <Button level={'primary'} size={'thin'} disabled={true}>
+            LINEで無料相談
+          </Button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+const Hero2 = (
   {
     title,
     subtitle,

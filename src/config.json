@@ -15,45 +15,6 @@
   ],
 
 
-  "explanations": [
-    {
-      "title": "ノンストレスでビザ取得まで",
-      "contents": "イミグレーションで長時間待つことや、書類準備のストレスをクリアにします。完全代行可能で、時間のコストも削減。",
-      "assetsSrc": "/untilToGetVisa.jpg.webp",
-      "imgAlt": ""
-    },
-    {
-      "title": "簡単お申し込み",
-      "contents": "パスポートの集荷〜取得後の受渡までご自宅で全て完了します。来店不要・配送費用等も無料。",
-      "assetsSrc": "/easyApply.webp",
-      "imgAlt": ""
-    },
-    {
-      "title": "万全なサポート体制",
-      "contents": "タイ国内のVISA でのお困りのことに関しては全て日本語対応。 難しい書類記入なども完全代行、書類要件をクリア致します。 その他VISA取得要件でお悩みの方は是非一度ご相談下さい。",
-      "assetsSrc": "/systemSafeSupport.webp",
-      "imgAlt": ""
-    },
-    {
-      "title": "ノンストレスでビザ取得まで",
-      "contents": "各種ビザ国内取得で対応しております。 時間とコストを削減することができます。",
-      "assetsSrc": "/internalGet.webp",
-      "imgAlt": ""
-    },
-    {
-      "title": "問題解決",
-      "contents": "VISA取得失敗やオーバーステイ等で他社様で断られたケースでもサポート可能。",
-      "assetsSrc": "/solution.webp",
-      "imgAlt": ""
-    },
-    {
-      "title": "緊急時対応",
-      "contents": "ビザやそれ以外での滞在中の問題があれば緊急でサポート致します！お気軽にご連絡くださいませ。",
-      "assetsSrc": "/immediateResponse.webp",
-      "imgAlt": ""
-    }
-  ],
-
   "faqs": [
     {
       "title": "バンコク郊外ですが取得可能ですか？",

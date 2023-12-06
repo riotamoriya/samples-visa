@@ -5,11 +5,14 @@ import Header from '../Header';
 
 import Footer from '../Footer';
 
+import FlashMessageModal from '../FlashMessageModal';
+
+
 import * as styles from './Layout.module.scss';
 
 import './Globals.css';
 
-const Layout = ({ children, disablePaddingBottom = false, withFooter = true }) => {
+const Layout = ({ children, disablePaddingBottom = false}) => {
   return (
     <>
       <Header /> 
@@ -18,11 +21,11 @@ const Layout = ({ children, disablePaddingBottom = false, withFooter = true }) =
           disablePaddingBottom === true ? styles.disablePaddingBottom : ''
         }`}
       >
+        <FlashMessageModal />
         {children}
       </main>
 
-      { withFooter && <Footer /> }
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

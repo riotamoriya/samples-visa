@@ -34,15 +34,9 @@ const IndexPage = ({data}) => {
 
   return (
     <Layout disablePaddingBottom>
-      <FlashMessageModal />
 
       <div className={styles_b.root}>
-        <Hero
-          image={'/7913d708-73c5-420d-93d5-871c8cddb808.jpg'}
-          title={`タイビザ サポート`}
-          subtitle={`タ イ 国 内 で の ビ ザ 取 得に 関 し て\n全 て 日 本 語 対 応 で サ ポ ー ト`}
-          ctaText={`LINEで無料相談`}
-        />
+        <Hero />
 
         <div  className={styles_a.messageContainer}>
           <Article1
@@ -53,10 +47,9 @@ const IndexPage = ({data}) => {
           />
         </div>
 
-        <div  className={styles_a.messageContainer}>
-          <VideoSection
-            bgColor={'#1daf71'}
-          />
+        <div className={` ${styles_a.videoContainer}`}>
+          <VideoSection />
+          {/* video-container */}
         </div>
     
         <div className={styles_a.collectionContainer}>

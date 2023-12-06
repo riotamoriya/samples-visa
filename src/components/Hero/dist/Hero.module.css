@@ -1,3 +1,87 @@
+@charset "UTF-8";
+.root2 {
+  position: relative;
+  height: 97vh;
+  /* オーバーレイ */
+}
+.root2 .heroImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.root2 .heroImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(157, 220, 188, 0.75);
+  z-index: 1;
+}
+.root2 .heroImage img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+}
+.root2 .sentence-container {
+  position: absolute;
+  /* 画像の中央に配置 */
+  top: 50%;
+  left: 50%;
+  /* 中央揃え */
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: auto;
+  /* その他のスタイリング */
+  text-align: center;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .root2 .sentence-container {
+    top: 58%;
+    width: 80%;
+  }
+}
+.root2 .sentence-container .sub-title {
+  padding: 0 0 1rem 0;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: normal;
+  white-space: nowrap;
+}
+@media (max-width: 800px) {
+  .root2 .sentence-container .sub-title {
+    font-size: 1.5rem;
+  }
+}
+.root2 .sentence-container .title {
+  padding: 0 0 4rem 0;
+  color: black;
+  font-size: 2.3rem;
+  font-weight: bold;
+  font-style: italic;
+}
+@media (max-width: 800px) {
+  .root2 .sentence-container .title {
+    font-size: 1.9rem;
+  }
+}
+.root2 .sentence-container .article1 {
+  padding: 0 0 6rem 0;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+@media (max-width: 800px) {
+  .root2 .sentence-container .article1 {
+    font-size: 1.1rem;
+  }
+}
 .root {
   width: 100%;
   background-size: cover;
