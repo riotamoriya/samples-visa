@@ -58,7 +58,7 @@ const MobileNavigation = ( {close} ) => {
 
       <div className={styles.mediaButtonContainer}>
         <Button level={'levelGreen'} size={'thin'} >
-          LINEでお問い合わせ
+          gaLxでお問い合わせ
         </Button>
       </div>
   
