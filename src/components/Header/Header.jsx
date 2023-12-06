@@ -98,7 +98,7 @@ const Header = () => {
 
           <div className={styles.actionContainers}>
             <Button level={'levelGreen'} size={'thin'} >
-              LINEでお問い合わせ
+              gaLxでお問い合わせ
             </Button>
             <button className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}>
               <Icon symbol={'x-skeleton'}></Icon>

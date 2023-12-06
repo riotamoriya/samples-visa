@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
         <div className={styles.button}>
           <Button level={'primary'} size={'thin'} disabled={true}>
-            LINEで無料相談
+            gaLxで無料相談
           </Button>
         </div>
       </div>

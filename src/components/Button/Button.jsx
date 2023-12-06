@@ -12,7 +12,7 @@ const Button = ({
   type,
   size,
   disabled,
-  onClick = () => navigate('https://www.google.co.jp/'),
+  onClick = () => navigate('https://github.com/riotamoriya/samples-visa'),
   className,
   flat,
   link,
