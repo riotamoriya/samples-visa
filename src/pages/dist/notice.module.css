@@ -1,14 +1,14 @@
 .root {
   width: 100%;
   padding: 12vh 15vw;
-  background-color: #1daf71;
+  background-color: var(--orange);
 }
 .root .contents {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .root .contents .title {
-  color: white;
+  color: var(--standard-white);
   font-size: 3rem;
   font-weight: bold;
 }

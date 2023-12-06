@@ -1,7 +1,7 @@
 .root {
-    // padding: 14vh 4vw;
+    padding: 14vh 4vw;
 
-    padding: 5vh 2vw;
+    // padding: 5vh 2vw;
 
     .title {
         font-weight: normal;
@@ -13,7 +13,8 @@
 
         margin-bottom: 2rem;
 
-        color: #1daf71;
+        color: var(--orange);
+
         font-weight: bold;
 
 
@@ -44,7 +45,7 @@
 }
 
 .greenStyle {
-    background-color: #1daf71;
+    background-color: var(--orange);
 
     .title {
         font-weight: normal;

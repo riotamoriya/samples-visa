@@ -12,7 +12,7 @@ const Button = ({
   type,
   size,
   disabled,
-  onClick = () => navigate('https://lin.ee/f7bqZYc'),
+  onClick = () => navigate('https://www.google.co.jp/'),
   className,
   flat,
   link,

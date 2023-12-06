@@ -4,19 +4,18 @@ import * as styles from './VideoSection.module.scss';
 import YouTubeAutoPlay from '../YouTubeAutoPlay/YouTubeAutoPlay';
 
 
-const VideoSection = ({ bgColor='#1daf71', title, quote }) => {
-
+const VideoSection = () => {
+  
   return (
     <div className={styles.root} >
       <div className={styles.title}>
-        TJチャンネルさんで<br/>
-        ご紹介頂きました★
+        公式チャンネルを開設しました
       </div>
       <div className={styles.subtitle}>
-        タイの複雑なビザに関してわかりやすく解説頂いておりますので是非↓
+        当局のアンバサダー、アリアさんの動画による説明もぜひご覧ください↓
       </div>
       
-      <YouTubeAutoPlay videoId={'gRb7XsiKmFg'} className={styles.video}/>
+      <YouTubeAutoPlay videoId={'Is0VNGXy944'} className={styles.video}/>
 
     </div>
   );

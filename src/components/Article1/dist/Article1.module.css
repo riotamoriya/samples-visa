@@ -1,5 +1,5 @@
 .root {
-  padding: 5vh 2vw;
+  padding: 14vh 4vw;
 }
 .root .title {
   font-weight: normal;
@@ -8,7 +8,7 @@
   text-align: center;
   white-space: pre-wrap;
   margin-bottom: 2rem;
-  color: #1daf71;
+  color: var(--orange);
   font-weight: bold;
 }
 @media (max-width: 800px) {
@@ -35,7 +35,7 @@
 }
 
 .greenStyle {
-  background-color: #1daf71;
+  background-color: var(--orange);
 }
 .greenStyle .title {
   font-weight: normal;

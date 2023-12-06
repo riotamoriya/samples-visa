@@ -1,6 +1,6 @@
 .list-container {
   padding: 9vh 18vw;
-  background-color: #1daf71;
+  background-color: var(--orange);
 }
 @media (max-width: 800px) {
   .list-container {
@@ -16,7 +16,7 @@
   text-align: left;
   white-space: nowrap;
   padding: 2rem 0;
-  color: white;
+  color: var(--standard-white);
   font-weight: bold;
 }
 .list-container .container .articleContents {
@@ -25,6 +25,6 @@
   line-height: 2.3rem;
   text-align: left;
   white-space: pre-wrap;
-  color: white;
+  color: var(--standard-white);
   font-weight: bold;
 }

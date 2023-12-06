@@ -47,7 +47,8 @@
 
         h3 {
             font-size: 2rem;
-            color: #1daf71;
+            color: var(--orange);
+
             white-space: pre-wrap;
             font-weight: bold;
             padding-bottom: 1.5rem;
@@ -58,7 +59,8 @@
             font-size: 1.4rem;
             line-height: 2.3rem;
 
-            color: black;
+            color: var(--standard-black);
+
             font-weight: normal;
             white-space: pre-wrap;
 

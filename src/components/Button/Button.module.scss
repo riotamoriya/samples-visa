@@ -25,26 +25,27 @@
     background-color: white;
     text-transform: uppercase;
     font-size: 1.3rem;
-    color: black;
+    color: var(--standard-black);
+
 }
 
 .levelBlack {
     border: solid;
-    border-color: #1daf71;
+    border-color: var(--orange);
 
     background-color: white;
     text-transform: uppercase;
     font-size: 1.3rem;
-    color: black;
+    color: var(--standard-black);
 }
 
 
 .levelGreen {
     border: none;
-    background-color: #1daf71;
+    background-color: var(--orange);
     text-transform: uppercase;
     font-size: 1.3rem;
-    color: white;
+    color: var(--standard-white);
 }
 
 
@@ -58,7 +59,7 @@
 
 .levelGreenWhite {
     border: none;
-    background-color: #1daf71;
+    background-color: var(--orange);
     text-transform: uppercase;
     font-size: 1.3rem;
     color: white;

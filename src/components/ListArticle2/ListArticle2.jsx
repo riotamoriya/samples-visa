@@ -8,16 +8,6 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 const ListArticle2 = ({ color, mdx_nodes, children}) => {
 
-  // console.log(mdx_nodes)
-
-  // const mdx = mdx_nodes[0];
-  // const image_alt = mdx.node.frontmatter.image_alt;
-  
-  // const tmp = mdx.node.frontmatter;
-
-  // console.log(tmp);
-
-
   // 背景色に基づいたクラス名を決定する関数
   const bgColorClass = color => {
     switch (color) {

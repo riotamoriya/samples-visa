@@ -3,7 +3,8 @@
 .list-container {
 
     padding: 9vh 18vw;
-    background-color: #1daf71;
+    background-color: var(--orange);
+    
 
     @media (max-width: 800px) {
         padding: 18vh 5vw;
@@ -23,7 +24,7 @@
 
             padding: 2rem 0;
 
-            color: white;
+            color: var(--standard-white);
             font-weight: bold;
 
         }
@@ -37,7 +38,7 @@
 
             white-space: pre-wrap;
 
-            color: white;
+            color: var(--standard-white);
             font-weight: bold;
 
         }

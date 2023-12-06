@@ -1,5 +1,5 @@
 .root {
-  background-color: #acedd1;
+  background-color: var(--orange-light);
   cursor: pointer;
   padding: 2.5rem;
   display: flex;

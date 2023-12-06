@@ -17,7 +17,7 @@ const ServiceTypesPage = () => {
           <Article1
             title={`サービス内容`}
             contents={
-              `・ビザ取得代行\n・会社設立代行\n`}
+              `・ビザ取得\n・火星出航準備\n`}
             btnText = 'お問い合わせ'
             style = {`green`}
             btnLevel='levelWhite'

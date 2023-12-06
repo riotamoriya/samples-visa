@@ -10,9 +10,9 @@ module.exports = {
   // siteMetadata:= サイト全体で使用するメタデータを定義するために使われます。
   // サイトのタイトル、説明、著者などの一般的な情報を含むことが多いです。GraphQLクエリを通じてサイトのどこからでもアクセスできます。
   siteMetadata: {
-    title: `Sample Page: Get-Visa`,
-    description: `My one sample page for corresponding to bussiness type.`,
-    image: `assets/favicon.png`,
+    title: `Nova-Martia-Official-Visa-Guide`,
+    description: `The Official Visa Guide page of Nova Martia, which is a new city in Mars.`,
+    image: `assets/nova-martia.png`,
     siteUrl: `https://riotamoriya.github.io/samples-visa/`,
     type: `website`,
     keywords: ``,
@@ -23,15 +23,15 @@ module.exports = {
       // サイトをスマートフォンのホームスクリーンに追加する際のアイコン、アプリ名、色などの設定を定義します。また、オフラインサポートやアプリの外観に関する設定も含みます。
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Sample Page: Get-Visa`, // アプリ名
-        short_name: `Get-Visa`, // 短いアプリ名
-        description: `My one sample page for corresponding to bussiness type.`,
+        name: `Nova-Martia-Official-Visa-Guide`, // アプリ名
+        short_name: `NM-Visa`, // 短いアプリ名
+        description: `Nova-Martia-Official-Visa-Guide`,
         lang: `ja`,
         display: `standalone`,
         start_url: `/`,
-        background_color:  `#FFE200`, // 背景色：蒲公英色
-        theme_color: `#FFE200`, // テーマ色
-        icon: 'src/assets/favicon.png',
+        background_color:  `#af701d`, 
+        theme_color: `#af701d`,
+        icon: 'src/assets/nova-martia.png',
         icons: [
           {
             src: `icons/icon-72x72.png`,

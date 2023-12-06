@@ -4,18 +4,23 @@ import Config from '../../config.json';
 
 import * as styles from './Footer.module.scss';
 
+
 const Footer = () => {
+  const today = new Date();
+  const year_yyyy = today.getFullYear();
+
   return (
     <div className={styles.root}>
       <div className={styles.logoContainer}>
         <h4 className={styles.logo}>
-          Thai Visa Support
+          NM Visa Guide
         </h4>
       </div>
 
       <p className={styles.contents}>
-        Thai Visa Support<br/>
-        Copyright 2021 ThaiVisaSupport All Rights Reserved.<br/>
+        Nova Martia Official Visa Guide<br/>
+        Copyright {year_yyyy} <br/>
+        NovaMartiaOfficialVisaGuide All Rights Reserved.<br/>
         当サイトのテキスト・画像等すべてのコンテンツの転載転用、商用販売を固く禁じます。
       </p>
       <div className={styles.linkContainer}> {/* スタイルクラスの適用 */}

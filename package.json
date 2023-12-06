@@ -1,8 +1,10 @@
 {
-  "name": "sample-page-get-visa",
+  
+
+  "name": "nova-martia-official-visa-guide",
   "version": "1.0.0",
   "private": true,
-  "description": "sample-page-get-visa",
+  "description": "The Official Visa Guide page of Nova Martia, which is a new city in Mars.",
   "author": "riotamoriya",
   "keywords": [],
   "scripts": {

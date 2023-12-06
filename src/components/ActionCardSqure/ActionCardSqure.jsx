@@ -11,21 +11,21 @@ const ActionCardSqure = () => {
     <div className={`${styles.root}`}>
       <Container className={styles.container}>
         <div className={styles.title}>
-          VISA取得の流れ
+          ワークフロー
         </div>
 
 
         <div className={styles.actionContainer}>
           <ActionCard
-            title={'①お問い合わせ・申請'}
+            title={'①初期相談'}
             icon={'user'}
-            subtitle={'公式LINEにてお問い合わせ、お見積もり等対応しております。お気軽にお問い合わせください。'}
+            subtitle={'ヒアリングさせていただき、お客様に合わせて手順のご説明をいたします。'}
           />
 
           <ActionCard
-            title={'②パスポート集荷'}
+            title={'②学習機関'}
             icon={'bag'}
-            subtitle={'ご自宅まで配送ドライバーが集荷に伺います。遠方の場合郵送でも対応しております。'}
+            subtitle={'火星、ノヴァマルティアは地球環境と大きく違います。最低限の知識を最高効率で取得できる環境を用意しています。'}
             link={'/shop'}
           />
 

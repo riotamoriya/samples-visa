@@ -15,7 +15,6 @@ import ActionCardSqure from '../components/ActionCardSqure';
 
 import VideoSection from '../components/VideoSection';
 
-import FlashMessageModal from '../components/FlashMessageModal';
 import Config from '../config.json';
 
 
@@ -25,7 +24,6 @@ import * as styles_b from './index2.module.css';
 
 
 import './App.scss';
-
 
 // import SEO from '../components/SEO';
 
@@ -40,16 +38,17 @@ const IndexPage = ({data}) => {
 
         <div  className={styles_a.messageContainer}>
           <Article1
-            title={`タイ滞在のビザ取得\n移住サポートは\nお任せください!!\n`}
+            title={`ノヴァマルティアでの\n新規ビザ取得完全サポート!!\n`}
             contents={
-              `タイ入国管理局での申請に関する\nお悩み、ストレスを改善できますよう\n徹底サポート。\n\nお客様が、より快適かつスムーズに\nタイ生活をお送りできますよう\n尽力して参ります。\n`}
+              `ノヴァマルティア入国管理についての手続きを完全サポート。\n
+              当局では、ビザ取得の需要増大にあたりサポート機能を強化・組織として分離。\n
+              そして入国前から入国後までの期間、スムーズにことが進むよう徹底的に尽力いたします。`}
             btnText = 'LINEで無料相談'
           />
         </div>
 
         <div className={` ${styles_a.videoContainer}`}>
           <VideoSection />
-          {/* video-container */}
         </div>
     
         <div className={styles_a.collectionContainer}>
@@ -58,7 +57,7 @@ const IndexPage = ({data}) => {
         
         <div  className={styles_a.collectionContainer}>
           <ListArticle
-            title='VISA代行内容'
+            title='渡航ビザ｀サービス'
             articles={Config.visaProxyServices}
           ></ListArticle>
         </div>
@@ -81,7 +80,7 @@ const IndexPage = ({data}) => {
           </ListArticle>
         </div>
 
-        <div  className={styles_a.collectionContainer}>
+        <div className={styles_a.collectionContainer}>
           <ActionCardSqure/>
         </div>
 

@@ -19,7 +19,7 @@ const FaqPage = () => {
     <Layout>
       <div className={styles.root}>
         <FaqList
-          faqs = {Config.faqs2}
+          faqs = {Config.faqs}
         />
       </div>
     </Layout>

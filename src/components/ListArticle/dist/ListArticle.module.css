@@ -1,14 +1,14 @@
 .root-lightGreen {
-  background-color: #acedd1;
-  color: black;
+  background-color: var(--orange-light);
+  color: var(--standard-black);
 }
 
 .root-green {
-  background-color: #1daf71;
+  background-color: var(--orange);
 }
 
 .root-deepGreen {
-  background-color: #1e7c52;
+  background-color: var(--orange-dark);
 }
 
 .root {
@@ -24,7 +24,7 @@
   text-align: left;
   white-space: pre-wrap;
   margin-bottom: 2rem;
-  color: #1daf71;
+  color: var(--orange-dark);
   font-weight: bold;
 }
 .root .container .articleTitle {
@@ -34,7 +34,7 @@
   text-align: left;
   white-space: pre-wrap;
   padding: 2rem 0;
-  color: black;
+  color: var(--standard-black);
   font-weight: bold;
 }
 .root .container .articleContents {
@@ -43,7 +43,7 @@
   line-height: 2.3rem;
   text-align: left;
   white-space: pre-wrap;
-  color: black;
+  color: var(--standard-black);
   font-weight: bold;
 }
 

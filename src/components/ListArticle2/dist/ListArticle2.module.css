@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .root {
-  background-color: #1e7c52;
+  background-color: var(--orange-dark);
   padding: 15vh 20vw;
 }
 @media (max-width: 800px) {

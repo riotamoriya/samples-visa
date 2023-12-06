@@ -7,7 +7,7 @@
 
         h2 {
             font-size: 3.1rem;
-            color: #1daf71;
+            color: var(--orange);
             white-space: nowrap;
             font-weight: bold;
             padding-bottom: 1.5rem;
@@ -17,7 +17,7 @@
 
         h3 {
             font-size: 2.3rem;
-            color: #1daf71;
+            color: var(--orange);
             white-space: pre-wrap;
             font-weight: bold;
             padding-bottom: 1.5rem;
@@ -28,7 +28,7 @@
             font-size: 1.5rem;
             line-height: 3rem;
 
-            color: black;
+            color: var(--standard-black);
             font-weight:normal;
             white-space: pre-wrap;
 
