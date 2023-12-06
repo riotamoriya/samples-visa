@@ -62,12 +62,12 @@ const IndexPage = ({data}) => {
           ></ListArticle>
         </div>
 
-        <div  className={styles_a.messageContainer}>
+        {/* <div  className={styles_a.messageContainer}>
           <Article1
             title={`LINEで相談\n無料お見積もり`}
             btnText = {`公式LINE`}
           />
-        </div>
+        </div> */}
 
         <div  className={styles_a.collectionContainer}>
           <ListArticle
@@ -88,7 +88,7 @@ const IndexPage = ({data}) => {
           <Article1
             title={`よくあるご質問`}
             contents={
-              `お役に立てることがありましたら\nお気軽にお問い合わせくださいませ。`}
+              `以下の他にも何か質問等あれば、\nどうぞお問い合わせください。`}
           />
         </div>
 
